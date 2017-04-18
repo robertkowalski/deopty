@@ -1,0 +1,18 @@
+{
+  "name": "deopty",
+  "version": "1.0.0",
+  "description": "Detect deoptimized V8 functions",
+  "main": "lib/index.js",
+  "scripts": {
+    "test": "standard lib",
+    "prepublish": "npm t"
+  },
+  "author": "Robert Kowalski <rok@kowalski.gd>",
+  "license": "Apache-2.0",
+  "devDependencies": {
+    "standard": "^10.0.1"
+  },
+  "dependencies": {
+    "winston": "^2.3.1"
+  }
+}
